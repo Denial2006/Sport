@@ -208,3 +208,17 @@ nav{
 .register-link p a:hover{
     text-decoration: underline;
 }
+.footer{
+    background-color: lightcyan;
+   display: flex;
+   padding: 1rem;
+   height: 15vh;
+   width: 100%;   
+   margin-bottom: -60rem;
+  
+}
+.footer .text {
+    margin-left: 40%;
+    margin-top: 2.5vh;
+    text-align: center;
+}

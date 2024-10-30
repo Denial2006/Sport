@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background: url("img/sports_background_athlete_icons_silhouette_retro_design_6836430.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color:#e0ffff;
+    color:#054d4d;
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    margin-top: 20px;
+   width: 7%;
+   height: 130%; 
+   box-shadow: 0px 0px 10px #e4dcdc;
+}
+.sport img{
+    width:10%;
+    position:absolute;
+    top: -90%;
+    height: auto;
+
+}
+.lgtext h1{
+    font-size: 2rem;
+    margin-left: 20%;
+    display: flex;
+}
+.menu{
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    
+}
+.menu li{
+    margin-right:40px ;
+}
+.menu li a{
+    font-size: 17px;
+    color: rgb(13, 13, 14);
+    text-decoration: none;
+    transition:0.3s ease ;
+}
+.menu li a:hover{
+    color:#5c5959;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.search form{
+    display: flex;
+    margin: 0;
+}
+.search input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.search input:hover{
+    border: 1px solid lightblue;
+}
+.search button{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #ccc;
+}
+
+.wrapper{
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #01080e;
+    border-radius: 10px;
+    padding: 30px 40px;    
+    /* position:absolute;  */
+    height: 100%;
+    margin-top: 15%;
+    display: inline-block;
+    position:absolute;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color:#0e0c0c;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #141313;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color:#1b1919;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    /* display:flex;
+    justify-content: space-between; 
+    font-size: 14.5px; */
+    margin: 15px 0 0px;
+    margin-left: 35%;
+
+}
+
+.remember-forgot label input{
+
+    accent-color: #0f0e0e;
+    margin-right: 3px;
+}
+
+.remember-forgot label{
+    color: #0f0f0f;
+}
+
+.remember-forgot a{
+    color: #1a1818;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #f3eeee;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    cursor: pointer;
+    font-size: 16px;
+    color: #1f1d1d;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #0a0909;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p{
+    color: #0c0c0c;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
